@@ -12,6 +12,7 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { from } from 'rxjs';
 import { InicioComponent } from './inicio/inicio.component';
+import { TemaComponent } from './tema/tema.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { InicioComponent } from './inicio/inicio.component';
     RodapeComponent,
     EntrarComponent,
     CadastroComponent,
-    InicioComponent
+    InicioComponent,
+    TemaComponent
   ],
   imports: [
     BrowserModule,
