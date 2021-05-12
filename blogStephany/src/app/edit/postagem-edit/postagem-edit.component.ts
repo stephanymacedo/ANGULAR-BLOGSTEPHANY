@@ -24,7 +24,8 @@ export class PostagemEditComponent implements OnInit {
     private router:Router,
     private route:ActivatedRoute,
     private postagemService: PostagemService,
-    private temaService: TemaService
+    private temaService: TemaService,
+    
   ) { }
 
   ngOnInit(){
