@@ -106,6 +106,7 @@
           <div class="card text-center" 
           *ngFor='let item of tema.postagem | orderBy: key : reverse'>
             <div class="card-body">
+              
               <h5 class="card-title m-0">{{item.titulo}}</h5>
               <p class="card-text mt-3">{{item.texto}}</p>
               <p class="card-text"><small class="text-muted">{{item.data | date: 'dd/MM/yyyy'}} ás {{item.data | date: 'HH:mm'}}</small></p>
